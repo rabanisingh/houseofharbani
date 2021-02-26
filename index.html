@@ -6,23 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House of Harbani</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!--  <script src=""></script> -->
-    <centre>
-        <ul class="menu">
-            <li class="links">Home</li>
-            <li class="links">Collection</li>
-            <li class="links">About Us</li>
-            <li class="links">Contact Us</li>
-        </ul>
-    </centre>
-    <section id="header">
-        <div class="inner-parallax">
-            <img src="HoH_Logo.jpg">
 
-        </div>
-    </section>
+    <div class="container">
+        <nav class="navbar-inverse my_nav_bar">
 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">House of Harbani</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="links"><a href="#header">Home</a></li>
+                    <li class="links"><a href="#aboutus">About Us</a></li>
+                    <li class="links"><a href="#collection">Collection</a></li>
+                    <li class="links"><a href="#videos">Videos</a></li>
+                    <li class="links"><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <center>
+
+
+
+        </center>
+        <section id="header">
+
+            <div class="inner-parallax">
+                <center>
+                    <img id="logo" src="HoH_Logo.jpg" class="img-responsive">
+                </center>
+
+            </div>
+        </section>
+        <section id="collection">
+            <h1>Collection</h1>
+            <div class="line"></div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="RedSuit.JPG" class="img-responsive">
+                        </center>
+                        <div class="carousel-content">
+                            <p>Rohit Bal Style Anarkali Suit</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <center><img src="yellow_lehenga.JPG" class="img-responsive">
+                        </center>
+                        <div class="carousel-content">
+                            <p>Beautiful Hand Embroidered Lehenga</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="BlueOrganza.JPG" class="img-responsive">
+                        </center>
+                        <div class="carousel-content">
+                            <p>Mirror Work Organza Sharara set</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="BlueOrganzawDuptta.JPG" class="img-responsive">
+                        </center>
+                        <div class="carousel-content">
+                            <p>Mirror Work Organza Sharara set</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="RosesGown.JPG" class="img-responsive">
+                        </center>
+                        <div class="carousel-content">
+                            <p>Hand Embroidered heavy work Georgette gown</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+
+        </section>
+        <section id="aboutus">
+            <h1>About Us</h1>
+            <div class="line"></div>
+            <p> House of Harbani is not just home to an exquisitie collection of outfits for hire. It is an endeavour towards saving the environment and making a mark in sustainable fashion. We shall create a fashionable and well-styled look for you - for any event.
+                <br><br>
+                All our outfits are designed by our in-house designer Mrs. Harpreet Chhabra and styled by our in-house stylist Mrs. Rabani Chhabra.
+            </p>
+        </section>
+        <section id="videos">
+            <h1>Videos</h1>
+            <div class="line"></div>
+
+
+        </section>
+        <section id="contact">
+            <h1> Contact Us</h1>
+            <div class="line"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14667.784294715266!2d77.4185269!3d23.2086358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f7ad1ff8d5056b8!2sHouse%20of%20Harbani!5e0!3m2!1sen!2sin!4v1608556020472!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </section>
+
+    </div>
 </body></html>
